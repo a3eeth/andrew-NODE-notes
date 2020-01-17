@@ -1,5 +1,5 @@
 const yargs = require('yargs')
-const noteUtils = require('./notes.js')
+const notes = require('./notes.js')
 
 // customizing the yargs version
 yargs.version('1.p.1')
@@ -30,7 +30,8 @@ yargs.command({
     },
     handler: function(argv) {
         // console.log('adding a new note ', argv)
-        console.log('title: ' + argv.title + '\nbody: ' + argv.body)
+        // console.log('title: ' + argv.title + '\nbody: ' + argv.body)
+        notes.addNote(argv.title, argv.body)
     }
 })
 // creating remove command
