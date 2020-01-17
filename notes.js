@@ -6,11 +6,23 @@ const getNotes = function () {
 
 const addNote = function (title, body) {
     const notes = loadNotes()
-    notes.push({
-        title: title,
-        body: body
-    })
-    saveNotes(notes)
+    // use arrayfilter to check for repeat titles
+    const duplicateNotes = notes.filter(
+        function(note) {
+            return note.title === title
+        }
+    )
+    if(duplicateNotes.length === 0) {
+        notes.push({
+            title: title,
+            body: body
+        })
+        saveNotes(notes)
+        console.log('new note added')
+    }
+    else {
+        console.log('note title taken')
+    }
 }
 
 // resuable function to load notes
