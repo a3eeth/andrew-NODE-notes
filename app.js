@@ -1,4 +1,5 @@
 const yargs = require('yargs')
+const noteUtils = require('./notes.js')
 
 // customizing the yargs version
 yargs.version('1.p.1')

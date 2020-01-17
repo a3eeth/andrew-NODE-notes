@@ -1,7 +1,7 @@
 {
   "name": "redo",
   "version": "1.0.0",
-  "description": "",
+  "description": "1. ADD notes\r 2. REMOVE notes\r 3. READ notes \r 4. LIST notes",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,5 +10,13 @@
   "license": "ISC",
   "dependencies": {
     "yargs": "^15.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a3eeth/andrew-NODE-notes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/a3eeth/andrew-NODE-notes/issues"
+  },
+  "homepage": "https://github.com/a3eeth/andrew-NODE-notes#readme"
 }
