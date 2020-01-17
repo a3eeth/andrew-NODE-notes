@@ -48,7 +48,7 @@ yargs.command({
     },
     handler: function(argv) {
         // console.log('removing note')
-        console.log(argv.title)
+        notes.removeNote(argv.title)
     }
 })
 // creating read command

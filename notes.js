@@ -25,9 +25,9 @@ const addNote = function (title, body) {
     }
 }
 
-const removeNote = function() {
+const removeNote = function(title) {
     // const notes = loadNotes()
-
+    console.log(title)
 }
 
 // resuable function to load notes
