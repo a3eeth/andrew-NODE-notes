@@ -38,8 +38,17 @@ yargs.command({
 yargs.command({
     command: 'remove',
     description: 'removing a note',
-    handler: function() {
-        console.log('removing note')
+    // setting up builder to take a required title option - 1
+    builder: {
+        title: {
+            describe: 'describe note title to be removed',
+            demandOption: true,
+            type: 'string'
+        }
+    },
+    handler: function(argv) {
+        // console.log('removing note')
+        console.log(argv.title)
     }
 })
 // creating read command

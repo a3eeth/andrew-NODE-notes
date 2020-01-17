@@ -25,6 +25,11 @@ const addNote = function (title, body) {
     }
 }
 
+const removeNote = function() {
+    // const notes = loadNotes()
+
+}
+
 // resuable function to load notes
 const loadNotes = function () {
     try {
@@ -43,5 +48,6 @@ const saveNotes = function(notes) {
 }
 module.exports = {
     getNotes: getNotes,
-    addNote: addNote
+    addNote: addNote,
+    removeNote: removeNote
 }
