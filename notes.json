@@ -1,1 +1,10 @@
-[{"title":"t","body":"b"},{"title":"last test","body":"body of last test"}]
+[
+    {
+        "title": "t",
+        "body": "b"
+    },
+    {
+        "title": "last test",
+        "body": "body of last test"
+    }
+]

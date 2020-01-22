@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "chalk": "^3.0.0",
+    "nodemon": "^2.0.2",
     "yargs": "^15.1.0"
   },
   "repository": {
@@ -18,5 +20,6 @@
   "bugs": {
     "url": "https://github.com/a3eeth/andrew-NODE-notes/issues"
   },
-  "homepage": "https://github.com/a3eeth/andrew-NODE-notes#readme"
+  "homepage": "https://github.com/a3eeth/andrew-NODE-notes#readme",
+  "devDependencies": {}
 }
